@@ -13,10 +13,11 @@ export default function RootLayout({ children }) {
         <Providers>
 
         <nav>
-          <h1 className='bg-black text-white p-6 '>Navbar</h1>
+          <h1 className='bg-slate-300 text-black p-6 '>Navbar</h1>
         </nav>
 
         {children}
+        <footer className='bg-slate-300 text-black p-6'>Footer</footer>
         </Providers>
       </body>
     </html>

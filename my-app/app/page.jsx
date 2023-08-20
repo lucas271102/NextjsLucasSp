@@ -1,19 +1,16 @@
-import { Button } from '@nextui-org/button'
-import Link from 'next/link'
-import React from 'react'
+import { Button } from "@nextui-org/button";
+import Link from "next/link";
+import React from "react";
 
-function  HomePage() {
+function HomePage() {
   return (
     <>
-    
-    
-    <div>Home</div>
-    <Link href='/about'>
-    
-    <Button>Click me </Button>
-    </Link>
+      <div>Home</div>
+      <Link href="/about">
+        <Button>Click me </Button>
+      </Link>
     </>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
