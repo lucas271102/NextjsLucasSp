@@ -10,6 +10,7 @@ import React from "react";
 async function Homeposts(){
   const res = await fetch('https://jsonplaceholder.typicode.com/photos?limit=50')
   const data = await res.json();
+  await new Promise ((resolve)=>setTimeout(resolve, 3000))
   return data 
 }
 
