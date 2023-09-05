@@ -19,7 +19,7 @@ async function Homeposts(){
   console.log(cars)
   return (
     <>
-      <div className="h-screen">Home
+      <div className="h-screen bg-black">Home
       
       
       <Link href="/about">
