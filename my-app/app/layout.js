@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <Providers>
 
         <nav className='bg-white drop-shadow-lg border rounded-sm flex gap-16 text-black p-6 text-3xl font-light '>
-          <h1>Car Room</h1>
+          <h1>House of Cars</h1>
           <Button>Cotizar</Button>
           <Button>Comprar</Button>
         </nav>

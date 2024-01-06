@@ -7,9 +7,9 @@ const PostCards = ({car}) => {
   return (
     <div className='flex'>
 
-<div key={car.id} >
+<div key={car.id}  >
              <h3>{car.title}</h3>
-             <img src={car.url} className='w-24 h-24 flex'/>
+             <img src={car.url} className='w-24 h-24 '/>
              <button onClick={()=>{
                 alert('Boton andando.')
              }}>Clic</button>
